@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import "./globals.css";
 import Header from "./header";
+import Footer from "./footer";
 
 export const metadata = {
   title: "Akeshya",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className="">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
