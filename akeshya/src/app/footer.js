@@ -3,28 +3,45 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="">
+    <div className="shadow-[0_3px_6px_1px_rgba(0,33,0,0.3)]">
       <div className="max-w-[1140px] mx-auto flex flex-row justify-between py-[30px]">
-        <div className="flex flex-row items-center"> 
+        <div className="flex flex-row items-center">
           <p
-            style={{fontFamily:"Open Sans, sans-serif;"}}
+            style={{ fontFamily: "Open Sans, sans-serif" }}
             className="text-[14px] text-[#222222] font-[400]"
           >
             © Copyright
-            <strong> Akeshya</strong>
-            . All Rights Reserved
+            <strong> Akeshya</strong>. All Rights Reserved
           </p>
         </div>
         <div className="flex items-center">
-          <ul style={{fontFamily:"Open Sans, sans-serif;"}} className="flex flex-row items-center justify-center space-x-[30px]">
+          <ul
+            style={{ fontFamily: "Open Sans, sans-serif" }}
+            className="flex flex-row items-center justify-center space-x-[30px]"
+          >
             <li>
-              <Link className="text-[#14279b] text-[15px] hover:text-[#5faee3]" href="/">Terms and conditions</Link>
+              <Link
+                className="text-[#14279b] text-[14px] font-[400] hover:text-[#5faee3]"
+                href="/"
+              >
+                Terms and conditions
+              </Link>
             </li>
             <li>
-              <Link className="text-[#14279b] text-[15px] hover:text-[#5faee3]" href="/">Refund policy</Link>
+              <Link
+                className="text-[#14279b] text-[14px] font-[400] hover:text-[#5faee3]"
+                href="/"
+              >
+                Refund policy
+              </Link>
             </li>
             <li>
-              <Link className="text-[#14279b] text-[15px] hover:text-[#5faee3]" href="/">Privacy policy</Link>
+              <Link
+                className="text-[#14279b] text-[14px] font-[400] hover:text-[#5faee3]"
+                href="/"
+              >
+                Privacy policy
+              </Link>
             </li>
           </ul>
         </div>
