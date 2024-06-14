@@ -29,7 +29,7 @@ export default function Header() {
               <Link className="text-[#555555] hover:text-[#14279b] text-[15px]" href="/about">About</Link>
             </li>
             <li>
-              <Link className="text-[#555555] hover:text-[#14279b] text-[15px]" href="/service">Service</Link>
+              <Link className="text-[#555555] hover:text-[#14279b] text-[15px]" href="/#service">Service</Link>
             </li>
             <li>
               <Link className="text-white text-[15px] bg-[#14279b] hover:bg-[#4aa3df] px-[25px] py-[12px] rounded-[50px]" href="/contactUs">Contact Us</Link>
