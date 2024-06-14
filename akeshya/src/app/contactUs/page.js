@@ -1,5 +1,9 @@
+import ContactUs from "../contactUs";
+
 export default function Page() {
   return (
-  <h1>Hello, Contact Page!</h1>
-  )
+    <div className="mt-[94px]">
+      <ContactUs />
+    </div>
+  );
 }
