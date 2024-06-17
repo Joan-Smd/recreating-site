@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ContactUs() {
   return (
-    <div className="max-w-[1140px] mx-auto">
+    <div className="section max-w-[1140px] mx-auto">
       <div className="pt-[60px] pb-[38px]">
         <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
           CONTACT US

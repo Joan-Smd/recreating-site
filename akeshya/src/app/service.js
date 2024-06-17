@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Service() {
   return (
     <div className="max-w-[1140px] mx-auto">
-      <div className="pt-[60px] pb-[30px]">
+      <div className="section pt-[60px] pb-[30px]">
         <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
           SERVICES
         </h2>
@@ -13,7 +13,7 @@ export default function Service() {
           you turn your idea into a reality.
         </p>
       </div>
-      <div className="flex flex-row justify-between pb-[60px]">
+      <div className="section flex flex-row justify-between pb-[60px]">
         <div className="relative w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] h-[400px] rounded-[8px]">
           <div
             class="z-20 text-red hover:before:bg-red relative before:rounded-[8px] 
@@ -185,7 +185,7 @@ export default function Service() {
           </div>
         </div>
       </div>
-      <div className="pt-[20px] pb-[60px]">
+      <div className="section pt-[20px] pb-[60px]">
         <div className="">
           <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
             Our Process
@@ -279,7 +279,7 @@ export default function Service() {
           </div>
         </div>
       </div>
-      <div className="py-[60px]">
+      <div className="section py-[60px]">
         <div className="pb-[30px]">
           <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
             OUR CORE FEATURES
