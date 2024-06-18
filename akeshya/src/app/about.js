@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="max-w-[1140px] mx-auto" id="about">
+    <div className="lg:max-w-[1140px] lg:mx-auto lg:px-0 px-3" id="about">
       <div className="section pt-[60px] pb-[30px]">
         <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#22222] uppercase font-[600] text-center">
           About Us
         </h2>
       </div>
-      <div className="section flex flex-row pb-[60px]">
-        <div className="px-3 flex flex-col space-y-4 w-1/2">
+      <div className="section flex lg:flex-row flex-col lg:space-y-0 space-y-4 pb-[60px]">
+        <div className="px-3 flex flex-col space-y-4 lg:w-1/2">
           <p className="text-[#444444]">
             We are Akeshya, a firm that specializes in web design and marketing.
             We help transform ideas into reality with a team of passionate
@@ -37,7 +37,7 @@ export default function AboutUs() {
             </li>
           </ul>
         </div>
-        <div className="px-3 flex flex-col space-y-4 w-1/2">
+        <div className="px-3 flex flex-col space-y-4 lg:w-1/2">
           <p className="text-[#444444]">
             We're professional, but we're also friendly, and we'll always pay
             attention to your concerns. We expect to work with innovative people
@@ -54,17 +54,17 @@ export default function AboutUs() {
           </Link>
         </div>
       </div>
-      <div className="section flex flex-row pb-[60px]">
+      <div className="section flex lg:flex-row flex-col pb-[60px]">
         <div className="px-3">
           <Image
             src="/counts-img.svg"
             alt="Counts"
-            className="max-w-[450px]"
+            className="lg:max-w-[450px]"
             width={450}
             height={260}
           />
         </div>
-        <div className="grid grid-cols-2 px-3 w-full justify-items-start">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-y-0 gap-y-[20px] lg:pt-0 pt-[36px] px-3 w-full justify-items-start">
           <div className="flex flex-row space-x-3 items-start justify-around">
             <Image
               src="/emoji-smile.svg"

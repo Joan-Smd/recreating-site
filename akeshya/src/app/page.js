@@ -31,16 +31,16 @@ export default function Home() {
   }, []);
   return (
     <main className="">
-      <div className="mt-[94px] py-[60px] max-w-[1140px] mx-auto">
-        <div className="flex flex-row space-x-4">
+      <div className="mt-[94px] py-[60px] lg:max-w-[1140px] lg:mx-auto">
+        <div className="flex lg:flex-row flex-col-reverse space-x-4">
           <div
             style={{ fontFamily: "Raleway, sans-serif" }}
-            className="flex flex-col justify-center"
+            className="flex flex-col justify-center lg:px-0 px-3 lg:pt-0 pt-[48px]"
           >
-            <h1 className="section text-[48px] text-[#14279b] leading-[56px] font-[700] mb-[10px]">
+            <h1 className="section lg:text-[48px] text-[28px] text-[#14279b] lg:leading-[56px] leading-[32px] font-[700] mb-[10px]">
               Grow your business with Akeshya
             </h1>
-            <h3 className="section text-[24px] text-[#484848] leading-[24px] font-[400] mb-[50px]">
+            <h3 className="section lg:text-[24px] text-[18px] text-[#484848] leading-[24px] font-[400] lg:mb-[50px] mb-[30px]">
               We are team of talented website designers, developers & digital
               marketeers
             </h3>
@@ -50,11 +50,11 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className="min-w-[578px]">
+          <div className="lg:min-w-[578px] lg:block flex justify-center">
             <Image
               src="/hero-img.png"
               alt="Banner"
-              className="w-[578px] h-[430px] animate-bounce"
+              className="lg:w-[578px] lg:h-[430px] w-[80%] h-[240px] bounces"
               width={578}
               height={430}
             />
@@ -62,8 +62,8 @@ export default function Home() {
         </div>
       </div>
       <div className="py-[10px] bg-[#f3f9fd]">
-        <div className="max-w-[1140px] mx-auto flex flex-row justify-between items-center">
-          <div className="py-[10px]">
+        <div className="max-w-[1140px] mx-auto lg:flex grid grid-cols-2 flex-row justify-between items-center">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-1.png"
               alt="Client Logo"
@@ -73,7 +73,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="py-[10px]">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-2.png"
               alt="Client Logo"
@@ -83,7 +83,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="py-[10px]">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-3.png"
               alt="Client Logo"
@@ -93,7 +93,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="py-[10px]">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-4.png"
               alt="Client Logo"
@@ -103,7 +103,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="py-[10px]">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-5.png"
               alt="Client Logo"
@@ -113,7 +113,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="py-[10px]">
+          <div className="py-[10px] lg:block flex justify-center">
             <Image
               src="/client-6.png"
               alt="Client Logo"
