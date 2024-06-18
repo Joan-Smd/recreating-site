@@ -3,23 +3,23 @@ import Image from "next/image";
 
 export default function ContactUs() {
   return (
-    <div className="section max-w-[1140px] mx-auto">
+    <div className="section lg:max-w-[1140px] lg:mx-auto lg:px-0 px-3">
       <div className="pt-[60px] pb-[38px]">
         <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
           CONTACT US
         </h2>
       </div>
-      <div className="flex flex-row justify-between pb-[60px]">
-        <div className="w-max">
+      <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-[32px] justify-between pb-[60px]">
+        <div className="lg:w-max">
           <h3 className="text-[#14279b] text-[28px] font-[700] mb-[10px]">
             Akeshya
           </h3>
-          <p className="text-[14px] text-[#888] mb-[16px] font-[400] w-[350px]">
+          <p className="text-[14px] text-[#888] mb-[16px] font-[400] lg:w-[350px]">
             Designers, developers & marketeers capable of delivering solutions
             according to your needs,
           </p>
         </div>
-        <div className="flex flex-col space-y-[26px] w-[260px]">
+        <div className="flex flex-col space-y-[26px] lg:w-[260px]">
           <div className="flex flex-row space-x-2">
             <div>
               <svg
@@ -64,7 +64,7 @@ export default function ContactUs() {
             </p>
           </div>
         </div>
-        <div className="w-[450px]">
+        <div className="lg:w-[450px]">
           <form>
             <div className="flex flex-col space-y-5">
               <input

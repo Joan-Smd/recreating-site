@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "./header";
 import Footer from "./footer";
+import ScrollTop from "./scrollTop";
 
 export const metadata = {
   title: "Akeshya",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <ScrollTop />
       </body>
     </html>
   );

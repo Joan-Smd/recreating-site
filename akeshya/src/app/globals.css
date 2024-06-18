@@ -14,9 +14,17 @@
   transform: translateY(0);
 }
 
-.animate-bounce {
+
+@media screen and (max-width:1024px) {
+  .bounces {
+    animation: none !important;
+  }
+}
+
+.bounces {
   animation: bounce 6s infinite;
 }
+
 
 @keyframes bounce {
   0%,

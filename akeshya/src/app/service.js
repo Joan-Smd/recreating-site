@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Service() {
   return (
-    <div className="max-w-[1140px] mx-auto">
+    <div className="lg:max-w-[1140px] lg:mx-auto lg:px-0 px-3">
       <div className="section pt-[60px] pb-[30px]">
         <h2 className="before:content-[' '] before:inline-block before:min-w-[50px] before:h-[2px] before:mr-[15px] before:mb-[10px] before:bg-[#14279b] after:content-[' '] after:inline-block after:min-w-[50px] after:h-[2px] after:mr-[15px] after:mb-[10px] after:bg-[#14279b] text-[32px] text-[#222] uppercase font-[600] text-center">
           SERVICES
@@ -13,8 +13,8 @@ export default function Service() {
           you turn your idea into a reality.
         </p>
       </div>
-      <div className="section flex flex-row justify-between pb-[60px]">
-        <div className="relative w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] h-[400px] rounded-[8px]">
+      <div className="section flex lg:flex-row flex-col lg:space-y-0 space-y-[48px] justify-between pb-[60px]">
+        <div className="relative lg:w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] lg:h-[400px] rounded-[8px]">
           <div
             class="z-20 text-red hover:before:bg-red relative before:rounded-[8px] 
            bg-white text-[#111] hover:rounded-[8px] rounded-[8px]
@@ -24,7 +24,7 @@ export default function Service() {
             before:duration-200 hover:text-white hover:before:top-0  
             hover:before:w-full p-[30px]"
           >
-            <div class="relative z-20 w-[200px]">
+            <div class="relative z-20 lg:w-[200px]">
               <div className="mb-5 w-[60px] h-[60px] flex justify-center items-center rounded-[50px] group-hover:bg-white bg-[#14279b]">
                 <svg
                   className=""
@@ -56,7 +56,7 @@ export default function Service() {
           </div>
         </div>
 
-        <div className="relative w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] h-[400px] rounded-[8px]">
+        <div className="relative lg:w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] lg:h-[400px] rounded-[8px]">
           <div
             class="z-20 text-red hover:before:bg-red relative before:rounded-[8px] 
            bg-white text-[#111] hover:rounded-[8px] rounded-[8px]
@@ -66,7 +66,7 @@ export default function Service() {
             before:duration-200 hover:text-white hover:before:top-0  
             hover:before:w-full p-[30px]"
           >
-            <div class="relative z-20 w-[200px]">
+            <div class="relative z-20 lg:w-[200px]">
               <div className="mb-5 w-[60px] h-[60px] flex justify-center items-center rounded-[50px] group-hover:bg-white bg-[#14279b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ export default function Service() {
           </div>
         </div>
 
-        <div className="relative w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] h-[400px] rounded-[8px]">
+        <div className="relative lg:w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] lg:h-[400px] rounded-[8px]">
           <div
             class="z-20 text-red hover:before:bg-red relative before:rounded-[8px] 
            bg-white text-[#111] hover:rounded-[8px] rounded-[8px]
@@ -110,7 +110,7 @@ export default function Service() {
             before:duration-200 hover:text-white hover:before:top-0  
             hover:before:w-full p-[30px]"
           >
-            <div class="relative z-20 w-[200px]">
+            <div class="relative z-20 lg:w-[200px]">
               <div className="mb-5 w-[60px] h-[60px] flex justify-center items-center rounded-[50px] group-hover:bg-white bg-[#14279b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ export default function Service() {
           </div>
         </div>
 
-        <div className="relative w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] h-[400px] rounded-[8px]">
+        <div className="relative lg:w-[260px] group overflow-hidden shadow-[0_0px_29px_1px_rgba(68,88,144,0.12)] lg:h-[400px] rounded-[8px]">
           <div
             class="z-20 text-red hover:before:bg-red relative before:rounded-[8px] 
            bg-white text-[#111] hover:rounded-[8px] rounded-[8px]
@@ -150,7 +150,7 @@ export default function Service() {
             before:duration-200 hover:text-white hover:before:top-0  
             hover:before:w-full p-[30px]"
           >
-            <div class="relative z-20 w-[200px]">
+            <div class="relative z-20 lg:w-[200px]">
               <div className="mb-5 w-[60px] h-[60px] flex justify-center items-center rounded-[50px] group-hover:bg-white bg-[#14279b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +195,7 @@ export default function Service() {
             achievement for each one of our clients.
           </p>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="group px-[20px] pb-[20px] pt-[160px]">
             <div className="px-[30px] bg-[#f6f6f6] group-hover:bg-[#14279b] py-[15px] rounded-[5px]">
               <h3
@@ -292,8 +292,8 @@ export default function Service() {
             experiences that provide a value for money.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-y-6">
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-y-6">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -309,7 +309,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -325,7 +325,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -341,7 +341,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -360,7 +360,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -376,7 +376,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -392,7 +392,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -408,7 +408,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -424,7 +424,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -440,7 +440,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -456,7 +456,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"
@@ -472,7 +472,7 @@ export default function Service() {
             </p>
           </div>
 
-          <div className="w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
+          <div className="lg:w-[260px] h-[72px] flex flex-row hover:bg-[#eef7fc] bg-[#f6f6f6] p-[20px]">
             <div className="pr-[10px]">
               <svg
                 className="w-[32px] h-[32px]"

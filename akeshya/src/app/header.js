@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="shadow-[0_1px_10px_-1px_rgba(0,3,0,0.1)] w-full bg-white z-30 fixed top-0">
-      <div className="max-w-[1140px] mx-auto flex flex-row justify-between h-[94px] py-[22px]">
-        <div className="flex flex-row items-center">
+    <div className="shadow-[0_1px_10px_-1px_rgba(0,3,0,0.1)] w-full bg-white z-30 fixed top-0 lg:py-0 py-3">
+      <div className="lg:max-w-[1140px] lg:mx-auto flex flex-row justify-between lg:h-[94px] h-[70px] py-[22px] lg:px-0 px-3">
+        <div className="flex flex-row  items-center">
           <Image
             src="/akeshya-logo.png"
             alt="Vercel Logo"
@@ -20,7 +20,7 @@ export default function Header() {
             AKESHYA
           </p>
         </div>
-        <div className="flex items-center">
+        <div className="lg:flex hidden items-center">
           <ul style={{fontFamily:"Open Sans, sans-serif"}} className="flex flex-row items-center justify-center space-x-[30px]">
             <li>
               <Link className="text-[#555555] hover:text-[#14279b] text-[15px]" href="/">Home</Link>
