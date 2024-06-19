@@ -48,7 +48,7 @@ export default function Service() {
                 className="text-[15px] text-[#444] group-hover:text-white font-[300]"
               >
                 Our web design services can assist you in reclaiming your
-                company's online image. Your business will flourish on the
+                companys online image. Your business will flourish on the
                 Internet thanks to the combination of style and technology we
                 provide, as well as our experience.
               </p>
@@ -178,8 +178,8 @@ export default function Service() {
               >
                 Since the beginning, we at Akeshya have specialised in website
                 maintenance. We recognise the significance of having your
-                business online 24 hours a day, seven days a week, and we've
-                created a system to ensure that we're always available.
+                business online 24 hours a day, seven days a week, and we have
+                created a system to ensure that we are always available.
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Service() {
                 We help you turn all of your ideas into a digital product that
                 meets all of your requirements. We begin each project by
                 determining its scope and needs. This is done by collaborating
-                closely with you to ensure that we're all on the same page.
+                closely with you to ensure that we are all on the same page.
               </p>
             </div>
           </div>
