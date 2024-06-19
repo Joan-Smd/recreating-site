@@ -35,12 +35,7 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/Joan-Smd/recreating-site.git
 
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd akeshya
-
-3. **Install the dependencies:**
+2. **Install the dependencies:**
 
    ```bash
    npm install
