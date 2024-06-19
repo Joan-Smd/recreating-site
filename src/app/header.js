@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Header() {
   function showBurger() {
     document.getElementById("burgerMenu").classList.toggle("hidden");
-    console.log("triggered");
   }
 
   return (
@@ -116,7 +115,7 @@ export default function Header() {
                     className="flex flex-col items-start justify-start space-y-[20px] py-[10px] px-[20px] w-full"
                   >
                     <li className="w-full">
-                      <Link
+                      <Link onClick={showBurger}
                         className="text-[#555555] hover:text-[#14279b] text-[15px]"
                         href="/"
                       >
@@ -124,7 +123,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className="w-full">
-                      <Link
+                      <Link onClick={showBurger}
                         className="text-[#555555] hover:text-[#14279b] text-[15px]"
                         href="/about"
                       >
@@ -132,7 +131,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className="w-full">
-                      <Link
+                      <Link onClick={showBurger}
                         className="text-[#555555] hover:text-[#14279b] text-[15px]"
                         href="/#service"
                       >
@@ -140,7 +139,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className="w-full flex">
-                      <Link
+                      <Link onClick={showBurger}
                         className="text-white text-[15px] bg-[#14279b] hover:bg-[#4aa3df] w-full text-center lg:py-[12px] py-[8px] rounded-[50px]"
                         href="/contactUs"
                       >
