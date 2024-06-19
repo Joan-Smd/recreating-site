@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Header() {
   function showBurger() {
     document.getElementById("burgerMenu").classList.toggle("hidden");
-    // document.getElementById("header").classList.toggle("hidden");
     console.log("triggered");
   }
 
