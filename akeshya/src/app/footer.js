@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="shadow-[0_3px_6px_1px_rgba(0,33,0,0.3)] lg:max-w-[1140px] lg:mx-auto lg:px-0 px-3">
-      <div className="flex flex-row justify-between py-[30px]">
+    <div className="shadow-[0_3px_6px_1px_rgba(0,33,0,0.3)]">
+      <div className="flex flex-row justify-between py-[30px] lg:max-w-[1140px] lg:mx-auto lg:px-0 px-3">
         <div className="flex flex-row items-center">
           <p
             style={{ fontFamily: "Open Sans, sans-serif" }}
